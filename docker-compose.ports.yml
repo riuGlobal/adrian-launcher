@@ -1,0 +1,4 @@
+services: 
+  bank: 
+    ports:
+      - 4000:4000

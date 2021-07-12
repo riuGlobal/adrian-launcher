@@ -1,0 +1,7 @@
+version: "3.8"
+
+services: 
+  bank: 
+    build: https://github.com/riuGlobal/bank-server.git#develop
+    env_file: 
+      - .env
