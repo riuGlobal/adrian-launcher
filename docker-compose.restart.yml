@@ -1,0 +1,5 @@
+services: 
+  bank: 
+    restart: unless-stopped
+  bank-web:
+    restart: unless-stopped
