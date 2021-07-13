@@ -5,3 +5,8 @@ services:
     build: https://github.com/riuGlobal/bank-server.git#develop
     env_file: 
       - .env
+
+  bank-web:
+    build: https://github.com/riuGlobal/bank-client.git#v1.0.0
+    env_file:
+      - .env
